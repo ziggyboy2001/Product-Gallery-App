@@ -165,9 +165,7 @@ This app follows system dark mode preferences:
 
 iOS Simulator:
 
-- Open Control Center (swipe down from top-right)
-- Press and hold the brightness slider
-- Toggle Dark Mode
+- cmd+shift+a
 
 Android Emulator:
 
