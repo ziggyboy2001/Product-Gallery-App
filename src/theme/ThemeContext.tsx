@@ -27,8 +27,8 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const isDark = colorScheme === 'dark';
   const theme = isDark ? darkTheme : lightTheme;
 
-  console.log('Current color scheme:', colorScheme);
-  console.log('Using theme:', isDark ? 'dark' : 'light');
+//   console.log('Current color scheme:', colorScheme);
+//   console.log('Using theme:', isDark ? 'dark' : 'light');
 
   return (
     <ThemeContext.Provider value={{ theme, isDark }}>
